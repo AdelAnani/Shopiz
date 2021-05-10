@@ -2,7 +2,7 @@
 
 Shopiz is a React Web App that lets users search and nominate their five favorites movies for the Shoppies Award.
 
-[Take a look!](https://shrouded-stream-56808.herokuapp.com/search)
+[Take a look!](https://shrouded-stream-56808.herokuapp.com/)
 ## App Features
 
 - Search results should come from OMDB's API.
