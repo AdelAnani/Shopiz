@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const API_KEY = "607f7ae";
 
-const searchMovieByName = (movieName) =>
+export const searchMoviesByName = (movieName, page) =>
     axios({
         method: 'GET',
         url: `https://www.omdbapi.com/?apikey=${API_KEY}`,
@@ -11,19 +11,12 @@ const searchMovieByName = (movieName) =>
             type: 'movie',
             plot: 'full',
             r: 'json',
+            page: page
         },
     });
 
-const searchMovieById = (movieId) =>
-    axios({
-        method: 'GET',
-        url: `https://www.omdbapi.com/?apikey=${API_KEY}`,
-        params: {
-            s: movie,
-            type: 'movie',
-            plot: 'full',
-            r: 'json',
-        },
-    });
+export const searchMovieById = (movieId) =>
+    axios.get(`https://www.omdbapi.com/?i=${movieId}&plot=full&apikey=${API_KEY}`);
 
-export default searchMovie;
+
+

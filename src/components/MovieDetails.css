@@ -1,0 +1,103 @@
+.title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    margin-left: 11%;
+    margin-right: 11%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: #FFFFFF;
+}
+
+.container {
+    font-size: 16px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.poster {
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 359px;
+    width: 230px;
+    border-radius: 4px;
+    background-color: #31343E;
+    box-shadow: 0 13px 27px -5px hsla(240, 30.1%, 28%, 0.25), 0 8px 16px -8px hsla(0, 0%, 0%, 0.3), 0 -6px 16px -6px hsla(0, 0%, 0%, 0.03);
+}
+
+.details_container {
+    margin-Left: 20px;
+    max-width: 640px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.plot {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.genre {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.year {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+.button_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 11%;
+    margin-right: 11%;
+    margin-top: 3%;
+    color: #FFFFFF;
+}
+
+.button {
+    color: #FFF;
+    font-size: 20px;
+    width: 315px;
+    background-color: #0063e5;
+    border-radius: 4px;
+    border-width: 0px;
+    font-family: 'Avenir Heavy', serif;
+    letter-spacing: 0.8px;
+    outline: none;
+    text-align: center;
+    padding: 1em;
+    display: inline-block;
+    text-decoration: none !important;
+}
+
+.button:hover {
+    background-color: #2B77D7
+}
+
+.button:active {
+    background-color: #2B77D7;
+    transform: translateY(2px);
+}
+
+.button:disabled {
+    background-color: #d0d0d0;
+}
